@@ -15,6 +15,7 @@ public class Problem315 {
     int lotteryDigit1, lotteryDigit2, lotteryDigit3;
     int guess;
     int guessDigit1, guessDigit2, guessDigit3;
+    int winState;
     Scanner input = new Scanner(System.in);
 
     System.out.print("Enter you lottery pick (three digits): ");
@@ -31,7 +32,7 @@ public class Problem315 {
     System.out.println("The lottery number is " + lottery);
 
     if (guess == lottery)
-      System.out.println("Exact match: you win $10,000");
+      winState = 1;
     else if ((guessDigit1 == lotteryDigit1 
          || guessDigit1 == lotteryDigit2 
          || guessDigit1 == lotteryDigit3)
@@ -41,7 +42,7 @@ public class Problem315 {
          && (guessDigit3 == lotteryDigit1
          || guessDigit3 == lotteryDigit2
          || guessDigit3 == lotteryDigit3))
-      System.out.println("Match all digits: you win $3,000");
+      winState = 2;
     else if ((guessDigit1 == lotteryDigit1 
          || guessDigit1 == lotteryDigit2 
          || guessDigit1 == lotteryDigit3)
@@ -51,8 +52,20 @@ public class Problem315 {
          || (guessDigit3 == lotteryDigit1
          || guessDigit3 == lotteryDigit2
          || guessDigit3 == lotteryDigit3))
-      System.out.println("Match one digit: you win $1,000");
+      winState = 3;
     else
-      System.out.println("Sorry, no match");
+      winState = 4;
+    switch (winState) {
+      case 1: System.out.println("Exact match: you win $10,000");
+              break;
+      case 2: System.out.println("Match all digits: you win $3,000");
+              break;
+      case 3: System.out.println("Match one digit: you win $1,000");
+              break;
+      case 4: System.out.println("Sorry, no match");
+              break;
+      default: System.out.println("ERROR");
+               break;
+    }
   } //calculates the winnings of a three digit lottery
 }
