@@ -1,5 +1,5 @@
 /**
- * file: Driver_prj0.java
+ * file: Problem311.java
  * author: Samantha Berry
  * course: CMPT 220
  * assignment: lab 2

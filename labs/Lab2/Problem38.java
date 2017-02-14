@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * file: Driver_prj0.java
+ * file: Problem38.java
  * author: Samantha Berry
  * course: CMPT 220
  * assignment: lab 2
