@@ -3,7 +3,7 @@ import java.util.Scanner;
  * file: Driver_prj0.java
  * author: Samantha Berry
  * course: CMPT 220
- * assignment: project 0
+ * assignment: lab 2
  * due date: February 7, 2017
  * version 1.0
  * 

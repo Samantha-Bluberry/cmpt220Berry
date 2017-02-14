@@ -3,7 +3,7 @@ import java.util.Scanner;
  * file: GradeCalc.java
  * author: Samantha Berry
  * course: CMPT 220
- * assignment: lab 1
+ * assignment: lab 2
  * due date: January 31, 2017
  * version 2.0
  * 
