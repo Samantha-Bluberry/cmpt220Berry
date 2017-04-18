@@ -1,0 +1,22 @@
+8 pts
+
+Sam,
+
+About your programs...
+
+Functionality
+
+- Kattis problem is missing.  -2pts
+
+
+Please make sure you read the problems well; follow instructions.
+
+
+Style Check
+
+- Your programs seem to pass the style check. Good job!
+
+
+Peace,
+
+- Dr. Rivas
