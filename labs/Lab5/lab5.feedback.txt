@@ -1,0 +1,21 @@
+8 pts
+
+Sam,
+
+About your programs...
+
+Functionality
+
+- There are missing programs.
+
+Please make sure you read the problems well; follow instructions.
+
+
+Style Check
+
+- Your programs pass the style check. Good job!
+
+
+Peace,
+
+- Dr. Rivas
