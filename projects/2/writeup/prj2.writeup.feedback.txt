@@ -1,0 +1,7 @@
+39 pts
+
+The project is a text-adventure game. The idea has good merit but is not
+original in concept. 
+
+Overall:
+- Decent work below average of an SD1 student. -1pt
