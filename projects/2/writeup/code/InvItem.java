@@ -12,11 +12,11 @@
  */
 public class InvItem extends Item
 {
-  String name;
-  String description;
-  String[] commands;
-  String[] interactItems; //Items the InvItem can interact with
-  boolean[] states;
+  private String name;
+  private String description;
+  private String[] commands;
+  private String[] interactItems; //Items the InvItem can interact with
+  private boolean[] states;
   //first boolean indicates if object is in scene false = no, true = yes
   //The following booleans indicate if the commands in the string can be done in order
 
@@ -127,7 +127,7 @@ public class InvItem extends Item
   }
 
   /**
-   * getCommand
+   * getArrsLength()
    *
    * This method returns length of the commands[] array
    *

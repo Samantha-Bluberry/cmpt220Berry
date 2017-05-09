@@ -12,11 +12,11 @@
  */
 public class Door
 {
-  int connectsTo; //index for where the door goes too
-  String direction; //word used by text parser to find location
-  boolean isOpen;
-  boolean trapped;
-  String trapText; // Text for when a trapped door is opened
+  private int connectsTo; //index for where the door goes too
+  private String direction; //word used by text parser to find location
+  private boolean isOpen;
+  private boolean trapped;
+  private String trapText; // Text for when a trapped door is opened
 
   /**
    * Door

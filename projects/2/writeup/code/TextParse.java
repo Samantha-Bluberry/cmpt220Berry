@@ -12,7 +12,7 @@
  */
 public class TextParse
 {
-  String textIn;
+  private String textIn;
   private String helpMessage = "When writing your commands make sure to eliminate \n" +
                        "unnecessary words such as 'the', 'to', and 'in'. \n" +
                        "Two word commands should be written in the format 'verb' 'object'.\n" +
@@ -33,7 +33,7 @@ public class TextParse
   /**
    * TextParse
    * 
-   * This function is the zero parameter constructor for the Textparse class
+   * This function is the one parameter constructor for the Textparse class
    *
    * Parameters:
    *   in: the text input by the player in the main method
@@ -90,8 +90,8 @@ public class TextParse
     else if (inputs[0].equals("look")) {
       return FlagList.getLocation().getDesc(); //returns description for area
     }
-    else if(inputs[0].equals("invetory")) {
-      return Player.getInvetoryPrint(); //returns players invetory
+    else if(inputs[0].equals("inventory")) {
+      return Player.getInvetoryPrint(); //returns players inventory
     }
     else if (inputs[0].equals("quit")) {
       FlagList.gameOff(); //quits game

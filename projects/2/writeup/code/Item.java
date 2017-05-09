@@ -12,10 +12,10 @@
  */
 public class Item
 {
-  String name;
-  String description;
-  String[] commands;
-  boolean[] states; 
+  private String name;
+  private String description;
+  private String[] commands;
+  private boolean[] states; 
   //first boolean indicates if object is in scene false = no, true = yes
   //The following booleans indicate if the commands in the string can be done in order
    
@@ -38,7 +38,7 @@ public class Item
    *   commands: the commands for the instance of the Item class
    *   states: the states for the instance of the Item class
    */
-  public Item(String name, String description, String commands[], boolean[] states){
+  public Item(String name, String description, String[] commands, boolean[] states){
     this.name = name;
     this.description = description;
     this.commands = commands;
